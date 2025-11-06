@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アカウント削除方法</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+        }
+        ol {
+            counter-reset: item;
+            padding-left: 0;
+        }
+        ol > li {
+            counter-increment: item;
+            margin-bottom: 20px;
+            list-style: none;
+        }
+        ol > li:before {
+            content: counter(item) ". ";
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.1em;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .warning strong {
+            color: #856404;
+        }
+        ul {
+            margin-top: 10px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .intro {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .contact {
+            background-color: #e7f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>アカウント削除方法</h1>
+    
+    <div class="intro">
+        <p>本ドキュメントでは、アカウントを削除する手順について説明します。</p>
+    </div>
+
+    <h2>削除手順</h2>
+    
+    <ol>
+        <li>
+            <strong>アプリにログイン</strong><br>
+            削除したいアカウントでアプリにログインしてください
+        </li>
+        
+        <li>
+            <strong>設定画面を開く</strong><br>
+            ユーザ名の右横にある歯車アイコン（⚙️）をタップしてください
+            <br>
+            <img src="../images/Screenshot_1762442825.png" alt="歯車アイコンの位置">
+        </li>
+        
+        <li>
+            <strong>削除メニューを選択</strong><br>
+            「ユーザを削除」をタップしてください
+        </li>
+        
+        <li>
+            <strong>本人確認</strong><br>
+            パスワードの入力が求められますので、現在のパスワードを入力してください
+            <br>
+            <img src="../images/Screenshot_1762442836.png" alt="パスワード入力画面">
+        </li>
+        
+        <li>
+            <strong>削除の実行</strong><br>
+            「確認」をタップすると、アカウントの削除が完了します
+        </li>
+    </ol>
+
+    <h2>注意事項</h2>
+    
+    <div class="warning">
+        <ul>
+            <li><strong>この操作は取り消せません</strong>。削除したアカウントは復元できませんので、ご注意ください</li>
+            <li>アカウントを削除すると、以下のデータが完全に削除されます：
+                <ul>
+                    <li>ユーザープロフィール情報</li>
+                    <li>その他すべての関連データ</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h2>お問い合わせ</h2>
+    
+    <div class="contact">
+        <p>アカウント削除に関してご不明な点がございましたら、サポートまでお問い合わせください。</p>
+    </div>
+</body>
+</html>
